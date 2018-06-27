@@ -32,7 +32,8 @@
     "dashboard": "Introduction",
     "home": "Home",
     "service": "Services",
-    "utilities": "Utilities"
+    "utilities": "Utilities",
+    "features": "Features"
   },
   "sitename": "Boilerplate Angular"
 }

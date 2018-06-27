@@ -32,7 +32,8 @@
     "dashboard": "Giới thiệu",
     "home": "Home",
     "service": "Dịch vụ",
-    "utilities": "Tiện ích"
+    "utilities": "Tiện ích",
+    "features": "Chức năng"
   },
   "sitename": "Boilerplate Angular"
 }

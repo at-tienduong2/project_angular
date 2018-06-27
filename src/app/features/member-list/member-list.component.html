@@ -1,0 +1,13 @@
+<main class="col-sm-9 ml-sm-auto col-md-10 pt-3" role="main">
+  <app-breadcrumb></app-breadcrumb>
+  <div>
+    <p>Choose</p>
+    <button (click)="say('mon')">Change one</button>
+    <button (click)="say('dad')">Change two</button>
+  </div>
+  <div>
+    <button (click)="decrement()">-</button>
+    <input [ngModel]="count">
+    <button (click)="increment()">+</button>
+  </div>
+</main>

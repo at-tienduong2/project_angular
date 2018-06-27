@@ -4,6 +4,7 @@ import { AuthGuard } from '../core/service/auth/auth-guard';
 import { dashboardRoutes } from './dashboard/dashboard.routing';
 import { serviceRoutes } from './service/service.routing';
 import { utilitiesRoutes } from './utilities/utilities.routing';
+import { memberRoutes } from './member-list/member-list.routing';
 
 export const featureRoutes: Routes = [
   {
@@ -14,6 +15,7 @@ export const featureRoutes: Routes = [
       ...dashboardRoutes,
       ...serviceRoutes,
       ...utilitiesRoutes,
+      ...memberRoutes,
       {
         path: '**',
         redirectTo: 'dashboard',
